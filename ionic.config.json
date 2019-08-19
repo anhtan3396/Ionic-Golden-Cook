@@ -1,0 +1,13 @@
+{
+  "name": "ionic-angular-course",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/*",
+      "proxyUrl": "https://hostwhereservicesare.net/*"
+    }
+  ]
+}
